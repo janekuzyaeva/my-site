@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="index-style.css">
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<title>Jenny's secret page</title>
+</head>
+<body>
+	<div class="parallax">
+		<div class="group layer back"><?php echo(file_get_contents('./text.txt')); ?></div>
+		<div class="group layer base">
+			<div class="wrapper">
+				<div class="header"><div id="head-text">Jenny's secret diary</div></div>
+				<div class="content">
+					<div class="left">
+						<div class="about-me">
+							<div class="my-img"><img src="itsme.jpg"></div>
+							<div class="my-text"><span style="font-size:40px;text-shadow:1px 1px 2px #ddd;">It's me!</span><br><hr><p>It is my photo when I was fourteen. I was so lovely, wasn't I?<br>Now I'm eightteen. I study at Moscow Polytech with the aim of becoming a programmer. So, I study really hard to improve myself and to fulfill my dream of working on freelance and traveling around the world. I hope that my first program will describe all my future.<br> Hello World!</p></div>
+							<div class="empty-field">It's empty field, yet;)</div>
+						</div>
+					</div>
+					<div class="right">
+						<a href="#">Who am I</a>
+						<a href="#">My works</a>
+						<a href="#">Review</a>
+					</div>
+					<div style="clear: both"></div>
+				</div>
+				<div class="footer"><b>My web page (c) 2018</b></div>
+			</div>
+		</div>
+	</div>	
+	<style>
+		p {
+			text-indent: 20px;
+			margin-right: 5px;
+			<!-- -webkit-hyphens: auto; -->
+		}
+	</style>
+</body>
+</html>
