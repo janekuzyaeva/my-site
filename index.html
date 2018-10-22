@@ -3,39 +3,97 @@
 <head>
 <link rel="stylesheet" href="index-style.css">
 <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
-<title>Jenny's secret page</title>
+<title>Home | Jane Kuzyaeva</title>
 </head>
 <body>
-	<div class="parallax">
-		<div class="group layer back"><?php echo(file_get_contents('./text.txt')); ?></div>
-		<div class="group layer base">
-			<div class="wrapper">
-				<div class="header"><div id="head-text">Jenny's secret diary</div></div>
+	<header>
+		<div class="layout-positioner">
+			<div class="header-0 clearfix">
+				<div class="logo">
+					<a href="#">Simple Logo</a>
+				</div>
+				<div class="menu">
+					<ul>
+						<li><a href="#feedback">Feedback</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#about">About Me</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<section>
+		<div class="layout-positioner">
+			<div class="about clearfix" id="about">
 				<div class="content">
-					<div class="left">
-						<div class="about-me">
-							<div class="my-img"><img src="itsme.jpg"></div>
-							<div class="my-text"><span style="font-size:40px;text-shadow:1px 1px 2px #ddd;">It's me!</span><br><hr><p>It is my photo when I was fourteen. I was so lovely, wasn't I?<br>Now I'm eightteen. I study at Moscow Polytech with the aim of becoming a programmer. So, I study really hard to improve myself and to fulfill my dream of working on freelance and traveling around the world. I hope that my first program will describe all my future.<br> Hello World!</p></div>
-							<div class="empty-field">It's empty field, yet;)</div>
-						</div>
-					</div>
-					<div class="right">
+					<h1>It's me!</h1><br><hr>
+					<br><p>It is my photo when I was fourteen. I was so lovely, wasn't I?<br>Now I'm eightteen. I study at Moscow Polytech with the aim of becoming a programmer. So, I study really hard to improve myself and to fulfill my dream of working on freelance and traveling around the world. I hope that my first program will describe all my future.<br> Hello World!</p>
+				</div>
+				<div class="photo">
+					<img src="itsme.jpg" width="350px">
+				</div>
+			</div>
+			<div class="lifestory">
+				<h1>Story of my life</h1><br>
+				<table>
+					<caption>Education</caption>
+					<tr>
+						<td>2006 - 2017</td>
+						<td>Liceum №7, Kstovo</td>
+					</tr>
+					<tr>
+						<td>2017 - 2018</td>
+						<td>SPbETU "LETI", Saint-Petersburg</td>
+					</tr>
+					<tr>
+						<td>2018 - our days</td>
+						<td>Moscow Polytech, Moscow</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</section>
+	
+	<section>
+		<div class="layout-positioner">
+			<div id="portfolio"></div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="layout-positioner">
+			
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+<!--<div class="header"><div id="head-text">Jenny's secret diary</div></div>
+
+
+ It's me!<br><hr><p>It is my photo when I was fourteen. I was so lovely, wasn't I?<br>Now I'm eightteen. I study at Moscow Polytech with the aim of becoming a programmer. So, I study really hard to improve myself and to fulfill my dream of working on freelance and traveling around the world. I hope that my first program will describe all my future.<br> Hello World!</p>
+It's empty field, yet;)
+
+
+<div class="right">
 						<a href="#">Who am I</a>
 						<a href="#">My works</a>
 						<a href="#">Review</a>
 					</div>
-					<div style="clear: both"></div>
-				</div>
-				<div class="footer"><b>My web page (c) 2018</b></div>
-			</div>
-		</div>
-	</div>	
-	<style>
-		p {
-			text-indent: 20px;
-			margin-right: 5px;
-			<!-- -webkit-hyphens: auto; -->
-		}
-	</style>
+
+
+<b>My web page (c) 2018</b> -->
+
+
+
+
+
+
 </body>
 </html>
